@@ -1,0 +1,51 @@
+﻿table.tblcss2
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: 1;
+    width:100%;
+    border-collapse:collapse;
+    position: static;
+    text-align: center;
+}
+        
+table.tblcss2 th 
+{
+	        
+background-color:#000;
+font-size:medium;
+color:#ffffff;
+	    
+	        
+}
+table.tblcss2 td {
+	        
+	font-size:small;
+	        
+} 
+
+
+table.tblcss3
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: 1;
+    border-collapse:collapse;
+    position: static;
+    text-align: center;
+}
+        
+table.tblcss3 th 
+{
+	        
+background-color:#000;
+font-size:medium;
+color:#ffffff;
+	    
+	        
+}
+table.tblcss3 td {
+	        
+	font-size:small;
+	        
+} 

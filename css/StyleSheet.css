@@ -1,0 +1,176 @@
+﻿table.tblcss1 
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: 1;
+    width:90%;
+    border-collapse:collapse;
+    position: static;
+    text-align: center;
+}
+        
+table.tblcss1 th 
+{
+	        
+background-color:#000;
+font-size:medium;
+color:#FFF;
+height:30px;
+	        
+	        
+}
+table.tblcss1 td {
+	        
+	font-size:small;
+	background-color:#FFF;
+	height:25px;
+	        
+} 
+
+table.tblcss11
+{
+    border-style: none;
+    border-color: #BBB;
+    border-width: 1;
+    border-collapse:collapse;
+    position: static;
+    text-align: center;
+    width:360px;
+}
+        
+table.tblcss11 th 
+{
+	        
+background-color:#BCC6CC;
+font-size:small;
+color:#000;
+border-color: #BBB;
+	        
+	        
+}
+table.tblcss11 td {
+	        border-color: #BBB;
+	font-size:small;
+	background-color:#FFF;
+	        
+} 
+
+table.tblcss110
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: 1;
+    width:90%;
+    border-collapse:collapse;
+    position: static;
+    text-align: center;
+}
+        
+table.tblcss110 th 
+{
+	        
+background-color:#000;
+font-size:small;
+color:#FFF;
+height:30px;
+	        
+	        
+}
+table.tblcss110 td {
+	        
+	font-size:smaller;
+	
+	height:25px;
+	        
+}
+
+.textbox {
+	font-family: Arial, Helvetica, sans-serif;
+	background: rgba(255, 255, 255, 0.44);
+	color: #000;
+	border: 1px solid #BBB;
+	padding: 4px 8px 4px 4px !important;
+	line-height: 1;
+}
+
+.textbox:hover {
+	border: 1px solid #0BB5FF;
+	box-shadow: inset 0px 1px 2px rgba(0,0,0,0);
+	-moz-box-shadow: inset 0px 1px 2px rgba(0,0,0,0);
+	-webkit-box-shadow: inset 0px 1px 2px rgba(0,0,0,0);
+}
+
+.textbox:focus {
+	border: 1px solid #4d90fe;
+	border: 1px solid #0BB5FF;
+	outline: none;
+	box-shadow: inset 0px 1px 2px rgba(0,0,0,0);
+	-moz-box-shadow: inset 0px 1px 2px rgba(0,0,0,0);
+	-webkit-box-shadow: inset 0px 1px 2px rgba(0,0,0,0);
+	background: rgb(255, 255, 255);
+}
+
+.btn_1 {
+	background-color: #CCCCCC;
+	color: #000;
+	border: 1px solid #525C65;
+	height: 30px;
+	width: 120px;
+}
+
+.btn_1:hover {
+	background-color: #AAAAAA;
+	color: #FFFFFF;
+	border: 1px solid #525C65;
+	height: 30px;
+	width: 120px;
+}
+
+.GridView_Css {
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #d9d9d9;
+    border-radius: 3px;
+    /*width: 99%;*/
+    /*height: calc(75% - 25px);*/
+    /*min-height: calc(40vh - 10px);*/
+    /*min-height: 25vh;*/
+    overflow-y: scroll;
+    display: block;
+    min-height: 30vh;
+    max-height: 45vh;
+    width: 80vw;
+    /*position:fixed;*/
+}
+
+.GridView_Css .empty-row {
+    border-style: dotted;
+    border-color: #F0F1F3;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #aa0512; /*  #aa0512 */
+    background-color: #F0F1F3; /* Orginal Backgroudcolor: #F0F1F3 edited: #f7f8f9 */
+}
+
+.GridView_Css th {
+    background-color: #337ab7;
+    font-size: 10pt;
+    color: #fff;
+    height: 25px;
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #8e95a4; /* #F0F1F3 */
+    border-radius: 1px;
+    /*opacity: 0.65;*/
+}
+
+.GridView_Css tr td {
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #000; /* #F0F1F3 */
+    border-radius: 0px;
+}
+
+
+

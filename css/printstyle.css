@@ -1,0 +1,139 @@
+html { margin: 0; }
+body { margin: 0px 0px 0px 0px; size:lanscape;}
+landScape
+{
+/* Size: 8.5in 11in landscape; */
+/* size: 29.5cm 21.0cm; */
+/* width: 841.8898 px; 
+ height: 595.2756 px; */
+ 
+ width:100%;
+ height:100%;
+/* margin: 0.10px 0.5px 0.5px 0.5px; */
+/* -webkit-transform: rotate(-90deg); -moz-transform:rotate(-90deg); */
+ margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px; 
+/* filter: progid:DXImageTransform.Microsoft.BasicImage(Rotation=3);  */
+/* width: 100%; margin: 0; float: none; */
+
+ /*   overflow: visible; */
+
+}
+
+noPrint {
+    display:none;
+}
+
+h1{
+position: absolute;
+top:0px;
+left:900px;
+}
+
+
+
+table.adrs
+{
+	position: absolute;
+	top: 37px;
+	left:121px;
+	width: 227px;
+	height: 64px;
+}
+
+table.contact
+{
+	position: absolute;
+	top: 39px;
+	left:360px;
+	width: 220px;
+}
+
+
+fieldset.fifth 
+{
+	position: absolute;
+	top: 428px;
+	left:835px;
+	width: 441px;
+	margin: 0 0px 0px 0px;
+	border: 2px solid #7F5A58;
+	padding: 2px 2px;
+	background-color: white;
+	height: 208px;
+}
+
+fieldset.seven 
+{
+	position: absolute;
+	top: 795px;
+	left:38px;
+	width: 912px;
+	margin: 0 0px 0px 0px;
+	border: 2px solid white;
+	padding: 2px 2px;
+	background-color: white;
+	height: 51px;
+}
+
+legend 
+{ 
+font-size: 1.1em; 
+background-color: #009999; 
+color: #FFFFFF; 
+
+padding: 4px 8px; 
+}
+
+table.sample {
+	border-width: 0px;
+	border-spacing: 2px;
+	border-style: outset;
+	border-color: white;
+	border-collapse: separate;
+	background-color: white;
+}
+table.sample th {
+	border-width: 0px;
+	padding: 1px;
+	border-style: inset;
+	border-color: white;
+	background-color: white;
+	-moz-border-radius: ;
+}
+table.sample td {
+	border-width: 0px;
+	padding: 1px;
+	border-style: inset;
+	border-color: white;
+	background-color: white;
+	-moz-border-radius: ;
+}
+table.sample1 {
+	border-width: 1px;
+	padding: 1px;
+	border-spacing: 0px;
+	border-style: outset;
+	border-color: #009999;
+	border-collapse: separate;
+	background-color: white;
+	
+}
+table.sample1 th {
+	border-width: 1px;
+	padding: 1px;
+	border-style: inset;
+	/*border-color: #009999;*/
+	background-color: white;
+	font-size:9px;
+}
+table.sample1 td {
+	border-width: 1px;
+	padding: 1px;
+	border-style: inset;
+	/*border-color: #009999;*/
+	background-color: white;
+	font-size:9px;
+}

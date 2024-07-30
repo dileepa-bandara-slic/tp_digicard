@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>E - Certificate Motor Third Party</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <%--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">--%>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="Style.css" rel="stylesheet" />
+
+    <link type="text/css" href="css/custom-theme/jquery-ui-1.10.3.custom.css" rel="stylesheet" />	
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="Stylesheet" href="css/StyleSheet.css" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+    
+<body>
+    <form id="form1" runat="server">
+        <%--<div class="page">
+         <div class="title">
+          <div class="header">
+            <div class="menu">
+            <center> 
+                <h1 style="text-align:center;">
+                   E - Certificate Motor Third Party
+                </h1>
+            </center>
+            <div class="style1"> 
+                <div class="loginDisplay">
+                </div>
+            </div>
+            
+        </div>
+        </div>
+
+        </div>
+        </div>--%>
+
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#" style="color:cyan; font-size:large">E - Certificate Motor Third Party</a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">SMS Module</a></li>
+              <li><a href="#">Reports</a></li>
+              <%--<li><a href="#">Page 2</a></li>
+              <li><a href="#">Page 3</a></li>--%>
+            </ul>
+          </div>
+        </nav>
+    
+
+        <div class="main">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"/>
+            
+        </div>
+      
+        <div class="clear">
+
+       </div>
+
+    </form>
+</body>
+</html>

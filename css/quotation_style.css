@@ -1,0 +1,10 @@
+﻿table.table1_style {
+            width: 90%;
+            text-align:left;
+            font-family:Calibri;
+            font-size:11pt;
+        }
+        table.table1_style td:first-child {
+    text-align: left;
+    width:190px;
+}​
